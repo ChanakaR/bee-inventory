@@ -6,7 +6,8 @@ class Dashboard extends Component {
     render () {
         return (
             <Aux>
-                <h1>This is Dashboard</h1>
+                <div>Chart 1</div>
+                <div>Stat 1</div>
             </Aux>
         );
     }
