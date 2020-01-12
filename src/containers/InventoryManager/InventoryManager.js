@@ -1,16 +1,18 @@
 import React, {Component} from 'react';
 
 import Aux from '../../hoc/Aux';
-import moduleName from 'module'
+import NavBar from '../../components/NavBar/NavBar';
 
 class InventoryManager extends Component {
     render() {
         return (
             <Aux>
-                <div>NavBar</div>
+                <NavBar />
                 <div>Container</div>
                 <div>Footer</div>
             </Aux>
         );
     }
 }
+
+export default InventoryManager;

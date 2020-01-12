@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
 
-import Dashboard from './containers/Dashboard/Dashboard';
+import InventoryManager from './containers/InventoryManager/InventoryManager';
 
 function App() {
   return (
     <div className="App">
-       <Dashboard />
+       <InventoryManager />
     </div>
   );
 }
