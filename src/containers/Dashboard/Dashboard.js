@@ -1,11 +1,13 @@
 import  React,{Component} from 'react';
 
+import Aux from '../../hoc/Aux';
+
 class Dashboard extends Component {
     render () {
         return (
-            <div>
+            <Aux>
                 <h1>This is Dashboard</h1>
-            </div>
+            </Aux>
         );
     }
 }

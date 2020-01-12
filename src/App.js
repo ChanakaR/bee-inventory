@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 
-import Dashboard from './containers/dashboard/dashboard';
+import Dashboard from './containers/Dashboard/Dashboard';
 
 function App() {
   return (
