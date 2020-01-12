@@ -1,10 +1,18 @@
 import React from 'react';
+import './NavBar.css';
 
 const NavBar = () => {
     return (
-        <div>
-            <h1>I am the Nav Bar</h1>
+        <div className="container">
+            <div className="row">
+                <button>Dashboard</button>
+                <button>Store</button>
+                <button>Reports</button>
+                <button>Settings</button>
+            </div>
+            
         </div>
+ 
     );
 }
 
